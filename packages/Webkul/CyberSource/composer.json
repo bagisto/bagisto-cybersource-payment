@@ -1,0 +1,25 @@
+{
+    "name": "bagisto/laravel-cyber-source-connect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto",
+            "email": "support@bagisto.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\CyberSource\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\CyberSource\\Providers\\CyberSourceServiceProdiver"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
