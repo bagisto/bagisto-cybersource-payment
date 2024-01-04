@@ -3,7 +3,7 @@
 return [
    [
         'key'    => 'sales.payment_methods.cyber_source',
-        'name'   => 'cyber_source::app.admin.system.cyber_source_payment',
+        'name'   => 'cyber_source::app.admin.system.cyber-source-payment',
         'sort'   => 4,
         'fields' => [
             [
@@ -40,23 +40,29 @@ return [
                 'title'         => 'cyber_source::app.admin.system.sandbox',
                 'type'          => 'boolean',
                 'channel_based' => true,
-                'locale_based'  => true,
+                'locale_based'  => false,
             ], [
                 'name'          => 'profile_id',
-                'title'         => 'cyber_source::app.admin.system.profile_id',
-                'type'          => 'password',
+                'title'         => 'cyber_source::app.admin.system.profile-id',
+                'type'          => 'depends',
+                'depend'        => 'active:1',
+                'validation'    => 'required_if:active,true',
                 'channel_based' => false,
                 'locale_based'  => false,
             ], [
                 'name'          => 'access_key',
-                'title'         => 'cyber_source::app.admin.system.access_key',
-                'type'          => 'password',
+                'title'         => 'cyber_source::app.admin.system.access-key',
+                'type'          => 'depends',
+                'depend'        => 'active:1',
+                'validation'    => 'required_if:active,true',
                 'channel_based' => false,
                 'locale_based'  => false,
             ], [
                 'name'          => 'secret_key',
-                'title'         => 'cyber_source::app.admin.system.secret_key',
-                'type'          => 'password',
+                'title'         => 'cyber_source::app.admin.system.secret-key',
+                'type'          => 'depends',
+                'depend'        => 'active:1',
+                'validation'    => 'required_if:active,true',
                 'channel_based' => false,
                 'locale_based'  => false,
             ]

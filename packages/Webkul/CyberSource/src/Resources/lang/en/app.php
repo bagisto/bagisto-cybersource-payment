@@ -7,18 +7,23 @@ return  [
             'title'                     => 'Title',
             'description'               => 'Description',
             'sandbox'                   => 'Sandbox',
-            'cyber_source_payment'      => 'CyberSource Payment',
-            'merchant_id'               => 'Merchant Id',
-            'transaction_key'           => 'Transaction Key',
+            'cyber-source-payment'      => 'CyberSource Payment',
             'debug'                     => 'Debug',
-            'profile_id'                => 'Profile Id',
-            'secret_key'                => 'Secret Key',
-            'access_key'                => 'Access Key',
+            'profile-id'                => 'Profile Id',
+            'secret-key'                => 'Secret Key',
+            'access-key'                => 'Access Key',
         ],
 
         'transaction' => [
             'error'     => 'Something went wrong! Please try again.',
             'cancel'    => 'Transaction Cancelled',
-        ]
+        ],
+    ],
+
+    'shop' => [
+        'payment' => [
+            'alert-msg'         => 'Please do not refresh this page...',
+            'redirect-msg'      => 'Click here if you are not redirected within 10 seconds...',
+        ],
     ],
 ];
