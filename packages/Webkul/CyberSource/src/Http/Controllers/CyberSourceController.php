@@ -90,7 +90,7 @@ class CyberSourceController extends Controller
 			"unsigned_field_names"			=> '',
 			"signed_date_time"				=> gmdate("Y-m-d\TH:i:s\Z"),
 			"locale"						=> 'en',
-			"partner_solution_id"			=> 'IGT4AWTG',
+			"partner_solution_id"			=> '95UY8P0N',
 			"transaction_type" 				=> 'authorization',
 			"reference_number" 				=> $uniqueId,
 			"amount" 						=> $amount,
