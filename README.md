@@ -48,7 +48,7 @@ Webkul\CyberSource\Providers\CyberSourceServiceProvider::class,
 
 ~~~
 protected $except = [
-    'checkout/cybersource/*',
+    'checkout/cyber-source/*',
 ];
 ~~~
 
@@ -71,6 +71,16 @@ php artisan vendor:publish --force
 
 ~~~
 
+* Run the following commands under the path packages/Webkul/CyberSource to generate the assets build file.
+
+~~~
+npm i
+~~~
+
+~~~
+npm run build
+~~~
+
 
 ### 4. Cybersource Dashboard:
 
@@ -79,13 +89,13 @@ php artisan vendor:publish --force
 * Add below details inside Payment Configuration -> Secure Acceptance Settings -> Edit Profile -> Customer Response -> Transaction Response Page -> Select Hosted By You
 
 ~~~
-Domain/checkout/cybersource/response
+Domain/checkout/cyber-source/response
 ~~~
 
 * Goto Cybersource Dashboard, add below details inside Payment Configuration -> Secure Acceptance Settings -> Edit Profile -> Customer Response -> Custom Cancel Response Page -> Select Hosted By You
 
 ~~~
-Domain/checkout/cybersource/cancel
+Domain/checkout/cyber-source/cancel
 ~~~
 
 > Your Bagisto instance is now ready to accept payments from CyberSource.

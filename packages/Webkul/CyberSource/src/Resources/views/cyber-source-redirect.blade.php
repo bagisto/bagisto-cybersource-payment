@@ -7,7 +7,11 @@
         @lang('cyber_source::app.shop.payment.alert-msg')
     </h1>
 
-    <form action="{{ $cyberSourceUrl }}" id="paymentForm" method="POST">
+    <form 
+        action="{{ $cyberSourceUrl }}" 
+        id="paymentForm" 
+        method="POST"
+    >
         <input 
             value="@lang('cyber_source::app.shop.payment.redirect-msg')"
             type="submit"

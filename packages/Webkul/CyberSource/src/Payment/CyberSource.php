@@ -14,9 +14,14 @@ class CyberSource extends Payment
      */
     protected $code  = 'cyber_source';
 
+    /**
+     * Return paypal redirect url.
+     *
+     * @return string
+     */
     public function getRedirectUrl()
     {
-        return route('cyber_source.process');
+        return route('cyber_source.redirect');
     }
 
     /**
