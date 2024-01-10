@@ -28,9 +28,7 @@ class CyberSourceController extends Controller
      */
     public function sign($params) 
     {
-    	$secretKey = core()->getConfigData('sales.payment_methods.cyber_source.secret_key');
-
-        return $this->signData($this->buildDataToSign($params), $secretKey);
+        return $this->signData($this->buildDataToSign($params), core()->getConfigData('sales.payment_methods.cyber_source.secret_key'));
     }
 
     /*
@@ -74,16 +72,21 @@ class CyberSourceController extends Controller
         $uniqueId =  uniqid();
 
         if ((bool) core()->getConfigData('sales.payment_methods.cyber_source.sandbox')) {
-            cyberSourceUrl = "https://testsecureacceptance.cybersource.com/pay";        			// For Sandbox Mode
+            // For Sandbox Mode
+            $cyberSourceUrl = "https://testsecureacceptance.cybersource.com/pay";
         } else {
-            $cyberSourceUrl = "https://secureacceptance.cybersource.com/pay";        				// For Production Mode
+            // For Production Mode
+            $cyberSourceUrl = "https://secureacceptance.cybersource.com/pay";
         }
 
-        $shippingRate = $cart?->selected_shipping_rate->price ?? 0; 								// shipping rate
+        // shipping rate
+        $shippingRate = $cart?->selected_shipping_rate->price ?? 0; 
 
-        $discountAmount = $cart->discount_amount; 													// discount amount
+        // discount amount
+        $discountAmount = $cart->discount_amount;
 		
-        $amount = ($cart->sub_total + $cart->tax_total + $shippingRate) - $discountAmount; 		// total amount
+        // total amount
+        $amount = ($cart->sub_total + $cart->tax_total + $shippingRate) - $discountAmount;
 
         $params  = [
             "access_key"                  => core()->getConfigData('sales.payment_methods.cyber_source.access_key'),

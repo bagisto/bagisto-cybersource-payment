@@ -65,8 +65,8 @@ return [
                 'validation'    => 'required_if:active,true',
                 'channel_based' => false,
                 'locale_based'  => false,
-            ]
-        ]
+            ],
+        ],
     ],
 ];
 
