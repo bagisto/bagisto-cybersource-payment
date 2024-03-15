@@ -12,6 +12,9 @@ return  [
             'profile-id'           => '配置文件 ID',
             'secret-key'           => '密钥',
             'access-key'           => '访问密钥',
+            'status'               => '状态',
+            'logo'                 => '标志',
+            'logo-information'     => '图像分辨率应为约55px X 45px',
         ],
 
         'transaction' => [

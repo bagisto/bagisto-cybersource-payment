@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'Identyfikator profilu',
             'secret-key'           => 'Sekretny klucz',
             'access-key'           => 'Klucz dostępu',
+            'status'               => 'Status',
+            'logo'                 => 'Logo',
+            'logo-information'     => 'Rozdzielczość obrazu powinna wynosić około 55px X 45px',
         ],
 
         'transaction' => [

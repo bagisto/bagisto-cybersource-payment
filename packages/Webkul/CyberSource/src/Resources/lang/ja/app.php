@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'プロフィールID',
             'secret-key'           => '秘密鍵',
             'access-key'           => 'アクセスキー',
+            'status'               => 'ステータス',
+            'logo'                 => 'ロゴ',
+            'logo-information'     => '画像の解像度は約55px x 45pxである必要があります',    
         ],
 
         'transaction' => [

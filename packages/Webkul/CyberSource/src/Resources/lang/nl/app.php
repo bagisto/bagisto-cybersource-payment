@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'Profiel ID',
             'secret-key'           => 'Geheime sleutel',
             'access-key'           => 'Toegangssleutel',
+            'status'               => 'Status',
+            'logo'                 => 'Logo',
+            'logo-information'     => 'De resolutie van de afbeelding moet ongeveer 55px x 45px zijn',    
         ],
 
         'transaction' => [

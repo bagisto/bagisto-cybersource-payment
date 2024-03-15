@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'מזהה פרופיל',
             'secret-key'           => 'מפתח סודי',
             'access-key'           => 'מפתח גישה',
+            'status'               => 'מצב',
+            'logo'                 => 'לוגו',
+            'logo-information'     => 'רזולוציית התמונה צריכה להיות בערך 55 פיקסלים על 45 פיקסלים',    
         ],
 
         'transaction' => [

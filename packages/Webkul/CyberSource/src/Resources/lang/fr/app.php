@@ -12,6 +12,9 @@ return  [
             'profile-id'           => "Carte d'indentité",
             'secret-key'           => 'Clef secrète',
             'access-key'           => "Clef d'accès",
+            'status'               => 'Statut',
+            'logo'                 => 'Logo',
+            'logo-information'     => "La résolution de l'image doit être d'environ 55px x 45px",    
         ],
 
         'transaction' => [

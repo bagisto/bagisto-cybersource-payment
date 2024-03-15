@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'ملف البطاقة الشخصية',
             'secret-key'           => 'المفتاح السري',
             'access-key'           => 'مفتاح الوصول',
+            'status'               => 'الحالة',
+            'logo'                 => 'الشعار',
+            'logo-information'     => 'يجب أن تكون دقة الصورة مثل 55 بكسل × 45 بكسل',    
         ],
 
         'transaction' => [

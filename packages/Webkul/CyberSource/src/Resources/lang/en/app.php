@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'Profile Id',
             'secret-key'           => 'Secret Key',
             'access-key'           => 'Access Key',
+            'status'               => 'Status',
+            'logo'                 => 'Logo',
+            'logo-information'     => 'Image resolution should be like 55px X 45px',
         ],
 
         'transaction' => [

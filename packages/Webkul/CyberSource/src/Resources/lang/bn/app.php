@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'প্রোফাইল আইডি',
             'secret-key'           => 'গোপন চাবি',
             'access-key'           => 'অ্যাক্সেস কী',
+            'status'               => 'অবস্থা',
+            'logo'                 => 'লোগো',
+            'logo-information'     => 'ইমেজ রেজোলিউশন হওয়া উচিত ৫৫পিক্সেল X ৪৫পিক্সেলের মতো',    
         ],
 
         'transaction' => [

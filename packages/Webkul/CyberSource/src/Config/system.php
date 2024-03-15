@@ -22,17 +22,16 @@ return [
                 'locale_based'  =>  true,
             ], [
                 'name'          => 'image',
-                'title'         => 'admin::app.configuration.index.sales.payment-methods.logo',
+                'title'         => 'cyber_source::app.admin.system.logo',
                 'type'          => 'image',
-                'info'          => 'admin::app.configuration.index.sales.payment-methods.logo-information',
+                'info'          => 'cyber_source::app.admin.system.logo-information',
                 'channel_based' => false,
                 'locale_based'  => false,
                 'validation'    => 'mimes:bmp,jpeg,jpg,png,webp',
             ], [
                 'name'          => 'active',
-                'title'         => 'admin::app.configuration.index.sales.payment-methods.status',
+                'title'         => 'cyber_source::app.admin.system.status',
                 'type'          => 'boolean',
-                'validation'    => 'required',
                 'channel_based' => true,
                 'locale_based'  => false,
             ], [

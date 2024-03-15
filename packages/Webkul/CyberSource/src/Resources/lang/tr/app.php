@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'Profil kimliği',
             'secret-key'           => 'Gizli anahtar',
             'access-key'           => 'Erişim anahtarı',
+            'status'               => 'Durum',
+            'logo'                 => 'Logo',
+            'logo-information'     => 'Görüntü çözünürlüğü 55px X 45px gibi olmalıdır',
         ],
 
         'transaction' => [

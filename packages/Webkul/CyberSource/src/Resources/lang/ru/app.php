@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'Идентификатор профиля',
             'secret-key'           => 'Секретный ключ',
             'access-key'           => 'Ключ доступа',
+            'status'               => 'Статус',
+            'logo'                 => 'Логотип',
+            'logo-information'     => 'Разрешение изображения должно быть примерно 55px X 45px',
         ],
 
         'transaction' => [

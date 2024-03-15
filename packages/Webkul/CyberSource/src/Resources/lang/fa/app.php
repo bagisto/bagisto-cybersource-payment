@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'شناسه نمایه',
             'secret-key'           => 'کلید مخفی',
             'access-key'           => 'کلید دسترسی',
+            'status'               => 'وضعیت',
+            'logo'                 => 'لوگو',
+            'logo-information'     => 'رزولوشن تصویر باید حدوداً ۵۵ پیکسل در ۴۵ پیکسل باشد',    
         ],
 
         'transaction' => [

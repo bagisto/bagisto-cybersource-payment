@@ -12,6 +12,9 @@ return  [
             'profile-id'           => 'පැතිකඩ හැඳුනුම්පත',
             'secret-key'           => 'රහස් යතුර',
             'access-key'           => 'ප්රවේශ යතුර',
+            'status'               => 'ස්තුතිය',
+            'logo'                 => "ලොගෝ'",
+            'logo-information'     => 'රූපයේ ප්‍රමාණය 55px X 45px විය යුතුය',
         ],
 
         'transaction' => [
