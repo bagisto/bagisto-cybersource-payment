@@ -25,7 +25,6 @@ export default defineConfig(({ mode }) => {
                 publicDirectory: "../../../public",
                 buildDirectory: "themes/cyber-source/build",
                 input: [
-                    "src/Resources/assets/css/app.css",
                     "src/Resources/assets/js/app.js",
                 ],
                 refresh: true,

@@ -16,7 +16,7 @@ Bagisto Cybersource Payment Extension Features:
 
 ### 2. Requirements:
 
-* **Bagisto**: v2.0.
+* **Bagisto**: v2.1.0.
 
 ### 3. Installation:
 
@@ -62,14 +62,6 @@ composer dump-autoload
 php artisan route:cache
 ~~~
 
-~~~
-php artisan vendor:publish --force
-
--> Press 0 and then press enter to publish all assets and configurations.
-                            or
--> Press the number showing CyberSourceServiceProvider and then press enter to publish  assets and configurations.
-
-~~~
 
 * Run the following commands under the path packages/Webkul/CyberSource to generate the assets build file.
 
