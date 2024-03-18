@@ -1,0 +1,11 @@
+{
+  "src/Resources/assets/images/cyber-source.png": {
+    "file": "assets/cyber-source-c5a41590.png",
+    "src": "src/Resources/assets/images/cyber-source.png"
+  },
+  "src/Resources/assets/js/app.js": {
+    "file": "assets/app-4ed993c7.js",
+    "isEntry": true,
+    "src": "src/Resources/assets/js/app.js"
+  }
+}
