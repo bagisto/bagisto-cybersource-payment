@@ -1,10 +1,16 @@
-# CHANGELOG for v2.0.x
+# CHANGELOG for v2.1.x
 
 #### This changelog consists the bug & security fixes and features being included in the releases listed below.
 
-## **v2.0 (29th of December, 2023)** - *Release*
+## **v2.1.x (18th of March, 2024)** - *Release*
 
-* [feature] Compatible with Bagisto v2.0.
+* [feature] Compatible with Bagisto v2.1.0.
+
+* [feature] Admin can change payment gateway logo from configuration.
+
+## **v2.0.0 (29th of December, 2023)** - *Release*
+
+* [feature] Compatible with Bagisto v2.0.0.
 
 * [feature] Admin must register himself on Cybersource website to get profile id, access key and secret key.
 
@@ -19,8 +25,3 @@
 * [feature] Check placed orders details like invoices and transaction.
 
 * [feature] Secure Acceptance Hosted Checkout Integration
-
-
-
-
-

@@ -16,11 +16,11 @@ Bagisto Cybersource Payment Extension Features:
 
 ### 2. Requirements:
 
-* **Bagisto**: v2.0.0.
+* **Bagisto**: v2.1.0, v2.1.1
 
 ### 3. Installation:
 
-* Unzip the respective extension zip and then merge "packages" folder into project root directory.
+* Unzip the respective extension zip and then merge "packages" and "public" folder into project root directory.
 
 * Goto config/app.php file and add following line under 'providers'.
 
@@ -32,6 +32,16 @@ Webkul\CyberSource\Providers\CyberSourceServiceProvider::class,
 
 ~~~
 "Webkul\\CyberSource\\": "packages/Webkul/CyberSource/src"
+~~~
+
+* In the config/bagisto-vite.php file, add the following line under the 'viters' section:
+
+~~~
+'cyber_source' => [
+    'hot_file'                 => 'cyber-source-vite.hot',
+    'build_directory'          => 'themes/cyber-source/build',
+    'package_assets_directory' => 'src/Resources/assets',
+],
 ~~~
 
 * Goto app/Http/Middleware/VerifyCsrfToken.php file and add following line under '$except' variables

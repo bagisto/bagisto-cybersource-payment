@@ -23,4 +23,16 @@ class CyberSource extends Payment
     {
         return route('cyber_source.redirect');
     }
+
+    /**
+     * Returns payment method image
+     *
+     * @return array
+     */
+    public function getImage()
+    {
+        $url = $this->getConfigData('image');
+
+        return $url ? Storage::url($url) : bagisto_asset('images/cyber-source.png', 'cyber_source');
+    }
 }
