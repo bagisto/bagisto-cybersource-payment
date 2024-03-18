@@ -12,7 +12,7 @@ class CyberSource extends Payment
      *
      * @var string
      */
-    protected $code  = 'cyber_source';
+    protected $code = 'cyber_source';
 
     /**
      * Return paypal redirect url.
@@ -22,17 +22,5 @@ class CyberSource extends Payment
     public function getRedirectUrl()
     {
         return route('cyber_source.redirect');
-    }
-
-    /**
-     * Returns payment method image
-     *
-     * @return array
-     */
-    public function getImage()
-    {
-        $url = $this->getConfigData('image');
-
-        return $url ? Storage::url($url) : bagisto_asset('images/cyber-source.png', 'cyber_source');
     }
 }

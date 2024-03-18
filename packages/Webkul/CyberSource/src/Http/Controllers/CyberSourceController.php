@@ -2,6 +2,7 @@
 
 namespace Webkul\CyberSource\Http\Controllers;
 
+use Webkul\Shop\Http\Controllers\Controller;
 use Webkul\Checkout\Facades\Cart;
 use Webkul\Sales\Repositories\OrderRepository;
 use Webkul\Sales\Repositories\InvoiceRepository;
@@ -16,8 +17,7 @@ class CyberSourceController extends Controller
     public function __construct(
         protected OrderRepository $orderRepository,  
         protected InvoiceRepository $invoiceRepository
-    ) 
-    {
+    ) {
     }
 
     /*
@@ -54,7 +54,7 @@ class CyberSourceController extends Controller
         $signedFieldNames = explode(",", $params["signed_field_names"]);
 
         foreach ($signedFieldNames as $field) {
-            $dataToSign[] = $field . "=" . $params[$field];
+            $dataToSign[] = $field."=".$params[$field];
         }
 
         return implode(",", $dataToSign);
@@ -69,7 +69,7 @@ class CyberSourceController extends Controller
     {
         $cart = Cart::getCart();
 
-        $uniqueId =  uniqid();
+        $uniqueId = uniqid();
 
         if ((bool) core()->getConfigData('sales.payment_methods.cyber_source.sandbox')) {
             // For Sandbox Mode
@@ -140,7 +140,7 @@ class CyberSourceController extends Controller
                 return redirect()->route('shop.checkout.onepage.success');
             } 
         } catch (\Exception $e) {
-
+            report($e);
         }
 		
         session()->flash('error', trans('cyber_source::app.admin.transaction.error'));
