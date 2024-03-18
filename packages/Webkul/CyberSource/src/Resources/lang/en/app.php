@@ -28,6 +28,7 @@ return  [
         'payment' => [
             'alert-msg'    => 'Please do not refresh this page...',
             'redirect-msg' => 'Click here if you are not redirected within 10 seconds...',
+            'title'        => 'Secure Acceptance - Payment Form',
         ],
     ],
 ];

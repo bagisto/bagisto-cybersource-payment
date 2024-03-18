@@ -28,6 +28,7 @@ return  [
         'payment' => [
             'alert-msg'    => 'Per favore non aggiornare questa pagina...',
             'redirect-msg' => 'Clicca qui se non vieni reindirizzato entro 10 secondi...',
+            'title'        => 'Accettazione sicura - Modulo di pagamento',
         ],
     ],
 ];

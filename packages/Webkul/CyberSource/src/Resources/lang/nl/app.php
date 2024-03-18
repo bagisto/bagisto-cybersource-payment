@@ -28,6 +28,7 @@ return  [
         'payment' => [
             'alert-msg'    => 'Gelieve deze pagina niet te vernieuwen...',
             'redirect-msg' => 'Klik hier als u niet binnen 10 seconden wordt doorgestuurd...',
+            'title'        => 'Veilige acceptatie - Betaalformulier',
         ],
     ],
 ];

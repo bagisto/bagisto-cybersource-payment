@@ -1,7 +1,10 @@
 <html>
 <head>
-    <title>Secure Acceptance - Payment Form</title>
+    <title>
+        @lang('cyber_source::app.shop.payment.title')
+    </title>
 </head>
+
 <body>
     <h1>
         @lang('cyber_source::app.shop.payment.alert-msg')

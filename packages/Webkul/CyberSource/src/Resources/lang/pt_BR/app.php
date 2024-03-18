@@ -28,6 +28,7 @@ return  [
         'payment' => [
             'alert-msg'    => 'Por favor, não atualize esta página...',
             'redirect-msg' => 'Clique aqui se você não for redirecionado em 10 segundos...',
+            'title'        => 'Aceitação Segura - Formulário de Pagamento',
         ],
     ],
 ];

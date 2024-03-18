@@ -28,6 +28,7 @@ return  [
         'payment' => [
             'alert-msg'    => 'Bitte aktualisieren Sie diese Seite nicht...',
             'redirect-msg' => 'Klicken Sie hier, wenn Sie nicht innerhalb von 10 Sekunden weitergeleitet werden...',
+            'title'        => 'Sichere Annahme – Zahlungsformular',
         ],
     ],
 ];

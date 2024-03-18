@@ -28,6 +28,7 @@ return  [
         'payment' => [
             'alert-msg'    => 'Lütfen bu sayfayı yenilemeyin...',
             'redirect-msg' => '10 saniye içinde yönlendirilmezseniz buraya tıklayın...',
+            'title'        => 'Güvenli Kabul - Ödeme Formu',
         ],
     ],
 ];

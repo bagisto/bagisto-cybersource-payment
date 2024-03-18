@@ -28,6 +28,7 @@ return  [
         'payment' => [
             'alert-msg'    => 'Proszę nie odświeżać tej strony...',
             'redirect-msg' => 'Kliknij tutaj, jeśli nie nastąpi przekierowanie w ciągu 10 sekund...',
+            'title'        => 'Bezpieczna akceptacja – forma płatności',
         ],
     ],
 ];
