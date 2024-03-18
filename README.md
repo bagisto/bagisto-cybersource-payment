@@ -16,7 +16,7 @@ Bagisto Cybersource Payment Extension Features:
 
 ### 2. Requirements:
 
-* **Bagisto**: v2.1.0
+* **Bagisto**: v2.1.0, v2.1.1
 
 ### 3. Installation:
 
