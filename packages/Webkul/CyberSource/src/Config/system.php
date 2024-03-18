@@ -4,6 +4,7 @@ return [
    [
         'key'    => 'sales.payment_methods.cyber_source',
         'name'   => 'cyber_source::app.admin.system.cyber-source-payment',
+        'info'   => 'cyber_source::app.admin.system.cyber-source-payment-info',
         'sort'   => 4,
         'fields' => [
             [

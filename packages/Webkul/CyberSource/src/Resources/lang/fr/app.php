@@ -3,18 +3,19 @@
 return  [
     'admin' => [
         'system' => [
-            'enable'               => 'Activer',
-            'title'                => 'Titre',
-            'description'          => 'Description',
-            'sandbox'              => 'bac à sable',
-            'cyber-source-payment' => 'Paiement CyberSource',
-            'debug'                => 'Déboguer',
-            'profile-id'           => "Carte d'indentité",
-            'secret-key'           => 'Clef secrète',
-            'access-key'           => "Clef d'accès",
-            'status'               => 'Statut',
-            'logo'                 => 'Logo',
-            'logo-information'     => "La résolution de l'image doit être d'environ 55px x 45px",    
+            'enable'                    => 'Activer',
+            'title'                     => 'Titre',
+            'description'               => 'Description',
+            'sandbox'                   => 'bac à sable',
+            'cyber-source-payment'      => 'Paiement CyberSource',
+            'debug'                     => 'Déboguer',
+            'profile-id'                => "Carte d'indentité",
+            'secret-key'                => 'Clef secrète',
+            'access-key'                => "Clef d'accès",
+            'status'                    => 'Statut',
+            'logo'                      => 'Logo',
+            'logo-information'          => "La résolution de l'image doit être d'environ 55px x 45px",
+            'cyber-source-payment-info' => 'Cybersource Payment Gateway est un module avancé et riche en fonctionnalités qui intégrera votre boutique à la passerelle de paiement Cybersource',    
         ],
 
         'transaction' => [

@@ -3,18 +3,19 @@
 return  [
     'admin' => [
         'system' => [
-            'enable'               => 'לְאַפשֵׁר',
-            'title'                => 'כותרת',
-            'description'          => 'תיאור',
-            'sandbox'              => 'ארגז חול',
-            'cyber-source-payment' => 'תשלום CyberSource',
-            'debug'                => 'לנפות',
-            'profile-id'           => 'מזהה פרופיל',
-            'secret-key'           => 'מפתח סודי',
-            'access-key'           => 'מפתח גישה',
-            'status'               => 'מצב',
-            'logo'                 => 'לוגו',
-            'logo-information'     => 'רזולוציית התמונה צריכה להיות בערך 55 פיקסלים על 45 פיקסלים',    
+            'enable'                    => 'לְאַפשֵׁר',
+            'title'                     => 'כותרת',
+            'description'               => 'תיאור',
+            'sandbox'                   => 'ארגז חול',
+            'cyber-source-payment'      => 'תשלום CyberSource',
+            'debug'                     => 'לנפות',
+            'profile-id'                => 'מזהה פרופיל',
+            'secret-key'                => 'מפתח סודי',
+            'access-key'                => 'מפתח גישה',
+            'status'                    => 'מצב',
+            'logo'                      => 'לוגו',
+            'logo-information'          => 'רזולוציית התמונה צריכה להיות בערך 55 פיקסלים על 45 פיקסלים',
+            'cyber-source-payment-info' => 'Cybersource Payment Gateway הוא מודול מתקדם ועשיר בתכונות שישלב את החנות שלך עם שער התשלום Cybersource',    
         ],
 
         'transaction' => [

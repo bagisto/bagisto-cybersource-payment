@@ -3,18 +3,19 @@
 return  [
     'admin' => [
         'system' => [
-            'enable'               => 'Увімкнути',
-            'title'                => 'Назва',
-            'description'          => 'опис',
-            'sandbox'              => 'Пісочниця',
-            'cyber-source-payment' => 'Платіж CyberSource',
-            'debug'                => 'Відлагоджувати',
-            'profile-id'           => 'Ідентифікатор профілю',
-            'secret-key'           => 'Секретний ключ',
-            'access-key'           => 'Ключ доступу',
-            'status'               => 'Статус',
-            'logo'                 => 'Логотип',
-            'logo-information'     => 'Роздільна здатність зображення повинна бути приблизно 55px X 45px',
+            'enable'                    => 'Увімкнути',
+            'title'                     => 'Назва',
+            'description'               => 'опис',
+            'sandbox'                   => 'Пісочниця',
+            'cyber-source-payment'      => 'Платіж CyberSource',
+            'debug'                     => 'Відлагоджувати',
+            'profile-id'                => 'Ідентифікатор профілю',
+            'secret-key'                => 'Секретний ключ',
+            'access-key'                => 'Ключ доступу',
+            'status'                    => 'Статус',
+            'logo'                      => 'Логотип',
+            'logo-information'          => 'Роздільна здатність зображення повинна бути приблизно 55px X 45px',
+            'cyber-source-payment-info' => 'Платіжний шлюз Cybersource — це вдосконалений і багатофункціональний модуль, який інтегрує ваш магазин з платіжним шлюзом Cybersource',
         ],
 
         'transaction' => [

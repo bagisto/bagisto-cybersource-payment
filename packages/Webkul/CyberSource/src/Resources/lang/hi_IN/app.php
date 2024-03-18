@@ -3,18 +3,19 @@
 return  [
     'admin' => [
         'system' => [
-            'enable'               => 'सक्षम',
-            'title'                => 'शीर्षक',
-            'description'          => 'विवरण',
-            'sandbox'              => 'सैंडबॉक्स',
-            'cyber-source-payment' => 'साइबरसोर्स भुगतान',
-            'debug'                => 'डिबग',
-            'profile-id'           => 'प्रोफ़ाइल आईडी',
-            'secret-key'           => 'गुप्त कुंजी',
-            'access-key'           => 'प्रवेश की चाबी',
-            'status'               => 'स्थिति',
-            'logo'                 => 'लोगो',
-            'logo-information'     => 'छवि का रिज़ॉल्यूशन लगभग 55px x 45px होना चाहिए',    
+            'enable'                    => 'सक्षम',
+            'title'                     => 'शीर्षक',
+            'description'               => 'विवरण',
+            'sandbox'                   => 'सैंडबॉक्स',
+            'cyber-source-payment'      => 'साइबरसोर्स भुगतान',
+            'debug'                     => 'डिबग',
+            'profile-id'                => 'प्रोफ़ाइल आईडी',
+            'secret-key'                => 'गुप्त कुंजी',
+            'access-key'                => 'प्रवेश की चाबी',
+            'status'                    => 'स्थिति',
+            'logo'                      => 'लोगो',
+            'logo-information'          => 'छवि का रिज़ॉल्यूशन लगभग 55px x 45px होना चाहिए',
+            'cyber-source-payment-info' => 'साइबरसोर्स पेमेंट गेटवे एक उन्नत और सुविधा संपन्न मॉड्यूल है जो आपके स्टोर को साइबरसोर्स पेमेंट गेटवे के साथ एकीकृत करेगा।',    
         ],
 
         'transaction' => [

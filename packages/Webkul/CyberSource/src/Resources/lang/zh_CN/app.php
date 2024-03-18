@@ -3,18 +3,19 @@
 return  [
     'admin' => [
         'system' => [
-            'enable'               => '使能够',
-            'title'                => '标题',
-            'description'          => '描述',
-            'sandbox'              => '沙盒',
-            'cyber-source-payment' => '网络支付',
-            'debug'                => '调试',
-            'profile-id'           => '配置文件 ID',
-            'secret-key'           => '密钥',
-            'access-key'           => '访问密钥',
-            'status'               => '状态',
-            'logo'                 => '标志',
-            'logo-information'     => '图像分辨率应为约55px X 45px',
+            'enable'                    => '使能够',
+            'title'                     => '标题',
+            'description'               => '描述',
+            'sandbox'                   => '沙盒',
+            'cyber-source-payment'      => '网络支付',
+            'debug'                     => '调试',
+            'profile-id'                => '配置文件 ID',
+            'secret-key'                => '密钥',
+            'access-key'                => '访问密钥',
+            'status'                    => '状态',
+            'logo'                      => '标志',
+            'logo-information'          => '图像分辨率应为约55px X 45px',
+            'cyber-source-payment-info' => 'Cyber​​source 支付网关是一个先进且功能丰富的模块，它将您的 商店与 Cyber​​source 支付网关集成',
         ],
 
         'transaction' => [
